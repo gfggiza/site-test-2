@@ -35,26 +35,23 @@ button {
     align-content: center;
     background: linear-gradient(gray,rgb(192, 192, 192));
     padding: 15px 0px 15px 0px;
-    font-size: 25px;
+    font-size: 28px;
     font-weight: bold;
     width: 170px;
     cursor:pointer;
     margin-left: 50px;
     color:rgb(82, 82, 82); 
     border:0px;
-    border-radius: 10px;
+    border-radius: 40px;
     box-shadow: 10px 10px 0px rgb(4, 70, 170);
-}
-button:hover {
-    transition: 1s;
-    background:rgb(138, 142, 146);
 }
 button a {
     text-decoration: none;
     color: rgb(235, 227, 227);
 }
 a button:hover {
-    transition: 1.5s;
+    transition: 1s;
+    background: rgb(209, 224, 224);
     color:rgb(204, 68, 27);
 }
 p{
