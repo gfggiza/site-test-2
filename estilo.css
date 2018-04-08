@@ -1,3 +1,7 @@
+header {
+    background-color: brown;
+    margin: 0px;
+}
 body {
     background-color: black;
     font-family: arial;
@@ -7,10 +11,11 @@ body {
 
 h1 {
     font-family: 'Lobster', cursive;
-    font-size: 70px;
     padding: 30px 40px;
     font-size: 100px;
     text-align: center;
+    cursor:pointer;
+
 }
 
 h1:hover {
@@ -18,18 +23,50 @@ h1:hover {
     opacity: 0.10;
     padding: 30px 40px;
 }
-
+h1 a {
+    text-decoration: none;
+    color:white;
+}
+.buttons {
+    float: left;
+    width: 25%;
+}
 button {
     align-content: center;
-    background-color:rgb(135, 250, 206);
-    padding: 10px 20px 10px 20px;
-    font-size: 20px;
+    background: linear-gradient(gray,rgb(192, 192, 192));
+    padding: 15px 0px 15px 0px;
+    font-size: 25px;
     font-weight: bold;
-}
-.secondary {
-    padding-right: 55px;
+    width: 170px;
+    cursor:pointer;
+    margin-left: 50px;
+    color:rgb(82, 82, 82); 
+    border:0px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 0px rgb(4, 70, 170);
 }
 button:hover {
-    transition:1s;
-    background-color:rgb(201, 161, 238);
+    transition: 1s;
+    background:rgb(138, 142, 146);
+}
+button a {
+    text-decoration: none;
+    color: rgb(235, 227, 227);
+}
+a button:hover {
+    transition: 1.5s;
+    color:rgb(204, 68, 27);
+}
+p{
+    margin: 45px;
+    line-height: 40px;
+    font-size: 26px;
+}
+img {
+    float:left;
+}
+
+.enquadrar {
+    float: right;
+    width: 75%;
 }
