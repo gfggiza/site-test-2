@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+    font-family: arial;
+    color: white;
+    font-weight: bold;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 70px;
+    padding: 30px 40px;
+    font-size: 100px;
+    text-align: center;
+}
+
+h1:hover {
+    transition: 1.5s;
+    opacity: 0.10;
+    padding: 30px 40px;
+}
+
+button {
+    align-content: center;
+    background-color:rgb(135, 250, 206);
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.secondary {
+    padding-right: 55px;
+}
+button:hover {
+    transition:1s;
+    background-color:rgb(201, 161, 238);
+}
